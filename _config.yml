@@ -1,3 +1,10 @@
+# Course settings
+course:
+  title: Programación en Python con Raspberry Pi
+  description: Curso para formación del profesorado en Programación y Robótica con Raspberry Pi.
+  author: Miguel Ángel Abellán
+  center: IES Miguel de Cervantes, Murcia
+
 # Build settings
 markdown: kramdown
 sass:
