@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  jekyll:
+    build: .docker/jekyll
+    container_name: jekyll
+    working_dir: /www
+    command: jekyll serve --watch --force_polling --verbose
+    volumes:
+      - ./:/www
+    ports:
+      - 4000:4000
