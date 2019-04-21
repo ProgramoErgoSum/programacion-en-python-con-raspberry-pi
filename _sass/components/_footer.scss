@@ -4,19 +4,19 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #f0f0f0;
+  background: #2d2d2d;
   margin: 0;
   padding: 10px;
   text-align: center;
   font-size: 12px;
-  color: #333;
+  color: #fff;
   span {
     color: #dc3545;
   }
   a {
     color: #888;
     &:hover {
-      color: #333;
+      color: #f0f0f0;
       text-decoration: none;
     }
   }
