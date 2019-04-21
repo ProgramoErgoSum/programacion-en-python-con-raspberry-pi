@@ -1,156 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>{{ site.course.title }}</title>
-  <meta name="description" content="{{ site.course.description }}">
-
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>{{ site.course.title }}</title>
+    <meta name="description" content="{{ site.course.description }}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
 	<div class="reveal">
-
 		<div class="slides">
-			
-			<section>
-				<h1>Programación en Python con Raspberry Pi</h1>
-				<hr />
-				<p><a href="https://www.migueabellan.es">Miguel Ángel Abellán</a></p>
-				<p><small>IES Miguel de Cervantes, Murcia</small></p>
-      </section>
-
-      <!--
-        Presentación del curso
-      -->
-			<section>
-				<section>
-					<h2>Presentación</h2>
-        </section>
-        <section>
-          <h3>Objetivos</h3>
-          <p></p>
-          <ul>
-            <li>Instalación</li>
-            <li>Configuración</li>
-            <li>Backup</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Temporalización</h3>
-          <p></p>
-          <ul>
-            <li>Instalación</li>
-            <li>Configuración</li>
-            <li>Backup</li>
-          </ul>
-        </section>
-      </section>
-      
-
-
-      <!-- 
-        1ª Sesión
-      -->
-      <section data-background="#dddddd">
-        <section>
-          <h2>1ª Sesión</h2>
-          <p>Introducción a Raspberry Pi</p>
-          <ul>
-            <li>Hardware</li>
-            <li>Software</li>
-            <li>SO Raspbian</li>
-          </ul>
-        </section>
-        <section>
-          <h3>¿Qué es Raspberry Pi?</h3>
-          <p>Un ordenador de pequeñas dimensiones destinado principalmente al desarrollo de prototipos y <strong>ámbito educativo</strong>.</p>
-        </section>
-        <section>
-          <h3>Hardware</h3>
-        </section>
-        <section>
-          <h3>Software</h3>
-        </section>
-        <section>
-          <h3>Software / Raspbian</h3>
-        </section>
-      </section>
-
-
-
-      <!-- 
-        2ª Sesión
-      -->
-      <section>
-        <section>
-          <h2>2ª Sesión</h2>
-          <p>Programación en Python</p>
-        </section>
-      </section>
-
-
-
-      <!-- 
-        3ª Sesión
-      -->
-      <section>
-        <section>
-          <h2>3ª Sesión</h2>
-          <p>Programación en MicroPython</p>
-        </section>
-      </section>
-
-
-
-      <!-- 
-        4ª Sesión
-      -->
-      <section>
-        <section>
-          <h2>4ª Sesión</h2>
-          <p>Pines GPIO</p>
-        </section>
-      </section>
-
-
-
-      <!-- 
-        5ª Sesión
-      -->
-      <section>
-        <section>
-          <h2>5ª Sesión</h2>
-          <p>Domótica con Raspberry Pi</p>
-        </section>
-      </section>
-
-
-
-      <!-- 
-        6ª Sesión
-      -->
-      <section>
-        <section>
-          <h2>6ª Sesión</h2>
-          <p>Internet de las cosas</p>
-        </section>
-      </section>
-
+            {% include cover.html %}
 		</div>
 	</div>
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
 	<script>
-		Reveal.initialize({
-			hash: true,
-			history: true
-		});
+		Reveal.initialize({ hash: true, history: true });
 	</script>
 </body>
 </html>
