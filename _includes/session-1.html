@@ -1,128 +1,64 @@
 <section>
-    <section>
-        <h2>1ª Sesión</h2>
-        <p>Introducción a Raspberry Pi</p>
-        <p><small>30 de Abril de 2019</small></p>
-    </section>
-    <!--
     <section data-markdown>
-        <textarea data-template>
-            ## ¿Qué es Raspberry Pi?
-            Un ordenador de pequeñas dimensiones destinado principalmente al desarrollo de prototipos y **ámbito educativo**.
-            ![](images/raspberry-pi-3.png)
-        </textarea>
+        ## 1ª Sesión
+
+        Introducción a Raspberry Pi
+        
+        > 30 de Abril de 2019
     </section>
-    -->
-    <section>
-        <h3>¿Qué es Raspberry Pi?</h3>
-        <p>Un ordenador de pequeñas dimensiones destinado principalmente al desarrollo de prototipos y <strong>ámbito educativo</strong>.</p>
-        <img width="500px" src="images/raspberry-pi-3.png" alt="Raspberry Pi 3" />
+    <section data-markdown>
+        ## ¿Qué es Raspberry Pi?
+
+        Un ordenador de pequeñas dimensiones destinado principalmente al desarrollo de prototipos y **ámbito educativo**.
+        
+        ![](images/raspberry-pi-3.png)
     </section>
-    <section>
-        <table>
-            <tr>
-                <th></th>
-                <th>Raspberry Pi 1 B</th>
-                <th>Raspberry Pi 2 B</th>
-                <th>Raspberry Pi 3 B</th>
-                <th>Raspberry Pi Zero</th>
-            </tr>
-            <tr>
-                <td>Precio</td>
-                <td>30</td>
-                <td>35</td>
-                <td>35</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Cores</td>
-                <td>1</td>
-                <td>4</td>
-                <td>4</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>CPU</td>
-                <td>700 MHz</td>
-                <td>900 MHz</td>
-                <td>1.2 GHz</td>
-                <td>1 GHz</td>
-            </tr>
-            <tr>
-                <td>RAM</td>
-                <td>512 MB</td>
-                <td>1 GB</td>
-                <td>1 GB</td>
-                <td>512 MB</td>
-            </tr>
-            <tr>
-                <td>Ethernet</td>
-                <td>SI</td>
-                <td>SI</td>
-                <td>SI</td>
-                <td>No</td>
-            </tr>
-            <tr>
-                <td>Wi-Fi</td>
-                <td>No</td>
-                <td>No</td>
-                <td>SI</td>
-                <td>No</td>
-            </tr>
-            <tr>
-                <td>Bluetooth</td>
-                <td>No</td>
-                <td>No</td>
-                <td>SI</td>
-                <td>No</td>
-            </tr>
-            <tr>
-            <tr>
-                <td>GPIO</td>
-                <td>8</td>
-                <td>17</td>
-                <td>17</td>
-                <td>17</td>
-            </tr>
-            <tr>
-                <td>Consumo</td>
-                <td>700 mA</td>
-                <td>820 mA</td>
-                <td>1400 mA</td>
-                <td>350 mA</td>
-            </tr>
-        </table>
+    <section data-markdown>
+        ### Modelos
+
+        | Raspberry Pi | 1 B+ | 2 B+ | 3 B+ | Zero |
+        | :--: | :--: | :--: | :--: | :--: |
+        | Precio | 30 | 35 | 35 | 5 |
+        | Cores | 1 | 4 | 4 | 1 |
+        | CPU | 700 MHz | 900 MHz | 1.2 GHz | 1 GHz |
+        | RAM | 512 MB | 1 GB | 1 GB | 512 MB |
+        | Ethernet | Si | Si | Si | No |
+        | WiFi | No | No | Si | Si |
+        | GPIO | 8 | 17 | 17 | 17 |
+        | Consumo | 700 mA | 820 mA | 1400 mA | 350 mA |
     </section>
-    <section>
-        <h3>Hardware</h3>
-        <p>Procesador basado en arquitectura ARM (Advanced RISC Machine).</p>
-        <p><strong>RISC</strong> (Reduced Instruction Set Computer)</p>
-        <ul>
-            <li>Énfasis en el Hardware</li>
-            <li>Idea básica: Instrucciones sencillas</li>
-            <li>MIPS: 140 instrucciones aprox.</li>
-        </ul>
-        <p><strong>CISC</strong> (Complex Instruction Set Computer)</p>
-        <ul>
-            <li>Énfasis en el Software</li>
-            <li>Idea básica: Instrucciones complejas</li>
-            <li>MIPS: 325 instrucciones aprox.</li>
-        </ul>
+    <section data-markdown>
+        ### Hardware
+        
+        Procesador basado en arquitectura ARM (Advanced RISC Machine).
+
+        **RISC** (Reduced Instruction Set Computer)
+        - Énfasis en el Hardware
+        - Idea básica: Instrucciones sencillas
+        - MIPS: 140 instrucciones aprox.
+
+        **CISC** (Complex Instruction Set Computer)
+        - Énfasis en el Software
+        - Idea básica: Instrucciones complejas
+        - MIPS: 325 instrucciones aprox.
     </section>
-    <section>
-        <h3>Software</h3>
-        <p>Disponible una gran cantidad de sistemas operativos aunque desde la fundación Raspberry Pi se recomienda Raspbian (basado en Linux Debian) al estar optimizado para el procesador ARM.</p>
-        <img src="images/software.png" alt="Software para Raspberry Pi" />
+    <section data-markdown>
+        ### Software
+        
+        Disponible una gran cantidad de sistemas operativos aunque desde la fundación Raspberry Pi se recomienda Raspbian (basado en Linux Debian) al estar optimizado para el procesador ARM.
+        ![](images/software.png)
     </section>
-    <section>
-        <h3>Versiones de Raspbian</h3>
-        <p><strong>Raspbian Pixel:</strong> Versión completa con entorno gráfico de Raspbian, es decir, la versión de escritorio con menús, ventanas, iconos, fondos de pantalla, etc. utilizado por la mayoría de los usuarios como ordenador de sobremesa.</p>
-        <p><strong>Raspbian Lite:</strong> Versión reducida sin entorno gráfico, es decir, la versión en modo consola sin gráficos. Esta opción generalmente es para usuarios avanzados con conocimientos de Linux que utilizan la Raspberry Pi como servidor.</p>
+    <section data-markdown>
+        ### Versiones de Raspbian
+        
+        - **Raspbian Pixel:** Versión completa con entorno gráfico de Raspbian, es decir, la versión de escritorio con menús, ventanas, iconos, fondos de pantalla, etc. utilizado por la mayoría de los usuarios como ordenador de sobremesa.
+        - **Raspbian Lite:** Versión reducida sin entorno gráfico, es decir, la versión en modo consola sin gráficos. Esta opción generalmente es para usuarios avanzados con conocimientos de Linux que utilizan la Raspberry Pi como servidor.
     </section>
-    <section>
-        <h3>Instalación de Raspbian</h3>
-        <p><strong>Mediante NOOBS:</strong> Instalación mediante asistente de instalación recomendada para usuarios generalmente poco expertos.</p>
-        <p><strong>Mediante imagen:</strong> Instalación mediante la imagen del sistema operativo Raspbian para usuarios avanzados.</p>
+    <section data-markdown>
+        ### Instalación de Raspbian
+        
+        - **Mediante NOOBS:** Instalación mediante asistente de instalación recomendada para usuarios generalmente poco expertos.
+        - **Mediante imagen:** Instalación mediante la imagen del sistema operativo Raspbian para usuarios avanzados.
     </section>
     <section data-markdown data-background="#ff0">
         ## Prácticas
