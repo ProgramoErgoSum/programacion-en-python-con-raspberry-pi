@@ -1,3 +1,3 @@
-# Programación en Python con Raspberry Pi
+# Curso para docentes de secundaria
 
 ![](cover.png)
