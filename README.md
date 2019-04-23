@@ -1,3 +1,3 @@
-# Diapositivas
+# Programación en Python con Raspberry Pi
 
-ToDo
+![](cover.png)
