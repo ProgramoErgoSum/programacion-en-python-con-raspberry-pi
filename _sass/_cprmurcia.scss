@@ -66,12 +66,12 @@ body {
 
 ::selection {
   color: #fff;
-  background: #ffc0d5;
+  background: #d8d8d8;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #ffc0d5;
+  background: #d8d8d8;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -258,7 +258,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #c47182;
+  color: #c40041;
   text-shadow: none;
   border: none; }
 
