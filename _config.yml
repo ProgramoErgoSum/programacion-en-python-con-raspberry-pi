@@ -1,12 +1,6 @@
-# Course settings
-course:
-  link: https://github.com/programoergosum/programacion-en-python-con-raspberry-pi
-  title: Programación en Python con Raspberry Pi
-  description: Curso para formación del profesorado en Programación y Robótica con Raspberry Pi.
-  author: 
-    name: Miguel Ángel Abellán
-    link: https://migueabellan.github.io
-  center: IES Miguel de Cervantes, Murcia
+# The MIT License (MIT)
+# Maintaned Asociación Programo Ergo Sum
+# - [@migueabellan](https://github.com/migueabellan)
 
 # Build settings
 markdown: kramdown

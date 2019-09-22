@@ -1,3 +1,3 @@
-# Curso para docentes de secundaria
+# Programación en Python con Raspberry Pi
 
-[![](cover.png)](https://programoergosum.github.io/programacion-en-python-con-raspberry-pi)
+> Accede a las diapositivas [aquí](https://wikitic.github.io/programacion-en-python-con-raspberry-pi/).
