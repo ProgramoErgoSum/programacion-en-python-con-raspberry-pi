@@ -19,9 +19,7 @@ Por otro lado, Python es un lenguaje de programación interpretado cuya filosof�
 3. Programación y electrónica con *Raspberry Pi*.
 
 
-
 <br />
-
 
 
 ## Ediciones
